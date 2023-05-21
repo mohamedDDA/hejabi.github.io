@@ -40,9 +40,6 @@ function rotateSlides() {
         do {
             nextSlide = Math.floor(Math.random() * slides.length);
         } while (nextSlide === currentSlide);
-
-        basic
-        Copy
         for (let i = 0; i < slides.length; i++) {
             if (i !== nextSlide) {
                 slides[i].classList.remove('active');
